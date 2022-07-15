@@ -1,4 +1,4 @@
-<?
+<?php
 // get model data from STDIN and decode the JSON into a proper PHP object
 $model = json_decode(stream_get_contents(STDIN));
 
